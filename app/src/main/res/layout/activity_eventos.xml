@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.heartbits.EventosAct">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Consultas"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#6699ff"
+        android:textColor="#ffff"
+        android:onClick="abreconsultas"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Vacinas"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#F7FCFF"
+        android:onClick="abrevacinas"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Marca no Calendário Google:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Spinner" />
+    <DatePicker
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    </DatePicker>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="Consultas"
+        android:layout_height="wrap_content"
+        android:onClick="marcarconsulta"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="Vacinas"
+        android:layout_height="wrap_content"
+        android:onClick="marcarvacina"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Outro"
+        android:onClick="marcaroutro" />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

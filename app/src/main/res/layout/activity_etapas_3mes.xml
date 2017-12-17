@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Layout"
+    android:padding="30dp"
+    tools:context="com.example.android.heartbits.EtapasAct_3mes">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terceiro Mês"
+        android:textSize="24dp"
+        android:paddingBottom="30dp"/>
+
+    <CheckBox
+        android:id="@+id/tres1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="Fixa e segue objetos" />
+
+    <CheckBox
+        android:id="@+id/tres2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="20dp"
+        android:text="Sorri" />
+
+    <CheckBox
+        android:id="@+id/tres3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textSize="20dp"
+        android:text="Mantém a calma com ruídos moderados" />
+
+    <CheckBox
+        android:id="@+id/tres4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:checked="false"
+        android:text="Não chora ao toque" />
+
+    <CheckBox
+        android:id="@+id/tres5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:checked="false"
+        android:text="Movimentos vigorosos" />
+
+</LinearLayout>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.heartbits.MemoryMenu">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/numbers"
+        android:text="Primeiro sorriso"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background=" #F7FCFF"
+        android:onClick="openselectimage"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Primeiro dente"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#6699ff"
+        android:textColor="#ffff"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Primeira Risada"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#F7FCFF"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Primeira palavra"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#6699ff"
+        android:textColor="#ffff"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Primeiro gatinhar"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#F7FCFF"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Primeiro passo"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#6699ff"
+        android:textColor="#ffff"
+
+
+        />
+</LinearLayout>

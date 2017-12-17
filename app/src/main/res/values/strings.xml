@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BabyMed</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="babyname"> Carolina </string>
+    <string name="borndate"> 2017-06-30 </string>
+    <string name="sex"> Feminino</string>
+    <string name="status"> 0 </string>
+    <string name="title_activity_memories">Memories</string>
+    <string name="data1"> 1998-7-24 </string>
+    <string name="data2"> 1998-8-27 </string>
+    <string name="med1"> Dr. Ana </string>
+    <string name="med2"> Dr. Ana </string>
+    <string name="tipo1"> VCG </string>
+    <string name="tipo2"> VHB </string>
+    <string name="tipo3"> VHB </string>
+
+
+</resources>

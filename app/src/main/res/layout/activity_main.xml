@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.heartbits.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/numbers"
+        android:text="Boletim"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#6699ff"
+        android:textColor="#ffff"
+        android:onClick="openboletim"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/numbers"
+        android:text="Medições"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background=" #F7FCFF"
+        android:onClick="openmedicoes"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Etapas de Desenvolvimento"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#6699ff"
+        android:textColor="#ffff"
+        android:onClick="openetapas"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Memórias"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#F7FCFF"
+        android:onClick="openmemorias"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Conselhos"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#6699ff"
+        android:textColor="#ffff"
+        android:onClick="opencons"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Eventos"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="#F7FCFF"
+        android:onClick="openevents"
+
+        />
+
+</LinearLayout>
